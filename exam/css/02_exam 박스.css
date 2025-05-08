@@ -1,0 +1,25 @@
+/* 빨간박스- 좌측배치 */
+.redbox{
+    width: 10rem;
+    /* 세로 */
+    height: 10rem;
+    /* 배경색 */
+    background-color: red;
+    /* TODO: 외곽선 속성: 선두께 선종류 색깔 */
+    border: 5px solid red;
+    float: left;
+    display: flex;
+}
+
+/* 노란박스- 오른쪽배치치 */
+.yellowbox{
+    width: 10rem;
+    /* 세로 */
+    height: 10rem;
+    /* 배경색 */
+    background-color: yellow;
+    /* TODO: 외곽선 속성: 선두께 선종류 색깔 */
+    border: 5px solid yellow;
+    float: right;
+    display: flex;
+}
